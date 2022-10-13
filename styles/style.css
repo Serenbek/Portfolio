@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", sans-serif !important;
+}
+li .header__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+li .header__link:hover {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #070707;
+}
+.header__line {
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.preview-lang {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  cursor: pointer;
+  margin: 0;
+}
+.preview-lang:hover {
+  font-weight: 700px;
+  line-height: 22px;
+  color: #070707;
+}
+.about-me {
+  background: #f6f6f6;
+}
+.title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.inner-txt {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.skills__name {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.skills-stars__star {
+  width: 26px;
+}
+.portfolio {
+  background: #f6f6f6;
+}
+.contact__icon {
+  height: 40px;
+}
+.social__txt {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+@media (min-width: 992px) {
+  .preview-lang {
+    transform: rotate(-90deg);
+  }
+}
