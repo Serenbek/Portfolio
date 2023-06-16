@@ -74,3 +74,8 @@ li .header__link:hover {
     transform: rotate(-90deg);
   }
 }
+@media (max-width: 768px) {
+  .first__portfolio {
+    width: 100%;
+  }
+}
